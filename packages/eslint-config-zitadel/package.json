@@ -10,6 +10,11 @@
     "eslint-config-turbo": "latest"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shubhamranjan/zitadel-ts.git"
   }
 }

@@ -22,8 +22,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          corepack enable
-          yarn install
+          npm install
 
       - name: Create Release Pull Request
         uses: changesets/action@v1

@@ -15,7 +15,7 @@ importers:
         specifier: ^8.56.0
         version: 8.56.0
       eslint-config-zitadel:
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:packages/eslint-config-zitadel
       prettier:
         specifier: ^3.2.4
@@ -39,13 +39,13 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0(react@18.2.0)
       '@zitadel/client':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../../packages/zitadel-client
       '@zitadel/react':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../../packages/zitadel-react
       '@zitadel/server':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../../packages/zitadel-server
       clsx:
         specifier: 1.2.1
@@ -121,7 +121,7 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       '@zitadel/tsconfig':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../../packages/zitadel-tsconfig
       autoprefixer:
         specifier: 10.4.13
@@ -139,7 +139,7 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       eslint-config-zitadel:
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../../packages/eslint-config-zitadel
       grpc-tools:
         specifier: 1.11.3
@@ -187,7 +187,7 @@ importers:
         specifier: 5.0.4
         version: 5.0.4
       zitadel-tailwind-config:
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../../packages/zitadel-tailwind-config
 
   packages/eslint-config-zitadel:
@@ -224,13 +224,13 @@ importers:
         specifier: ^29.5.11
         version: 29.5.11
       '@zitadel/tsconfig':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../zitadel-tsconfig
       eslint:
         specifier: ^8.56.0
         version: 8.56.0
       eslint-config-zitadel:
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../eslint-config-zitadel
       jest:
         specifier: ^29.7.0
@@ -254,7 +254,7 @@ importers:
   packages/zitadel-next:
     dependencies:
       '@zitadel/react':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../zitadel-react
       next:
         specifier: ^13.4.10
@@ -270,16 +270,16 @@ importers:
         specifier: ^17.0.13
         version: 17.0.52
       '@zitadel/server':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../zitadel-server
       '@zitadel/tsconfig':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../zitadel-tsconfig
       eslint:
         specifier: ^7.32.0
         version: 7.32.0
       eslint-config-zitadel:
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../eslint-config-zitadel
       jest:
         specifier: ^29.5.0
@@ -303,7 +303,7 @@ importers:
         specifier: ^4.9.3
         version: 4.9.3
       zitadel-tailwind-config:
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../zitadel-tailwind-config
 
   packages/zitadel-react:
@@ -331,7 +331,7 @@ importers:
         specifier: ^5.14.6
         version: 5.14.6
       '@zitadel/tsconfig':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../zitadel-tsconfig
       autoprefixer:
         specifier: 10.4.13
@@ -340,7 +340,7 @@ importers:
         specifier: ^7.32.0
         version: 7.32.0
       eslint-config-zitadel:
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../eslint-config-zitadel
       jest:
         specifier: ^29.5.0
@@ -370,7 +370,7 @@ importers:
         specifier: ^5.1.6
         version: 5.1.6
       zitadel-tailwind-config:
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../zitadel-tailwind-config
 
   packages/zitadel-server:
@@ -398,13 +398,13 @@ importers:
         specifier: ^29.5.11
         version: 29.5.11
       '@zitadel/tsconfig':
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../zitadel-tsconfig
       eslint:
         specifier: ^8.56.0
         version: 8.56.0
       eslint-config-zitadel:
-        specifier: workspace:*
+        specifier: 'file: *'
         version: link:../eslint-config-zitadel
       jest:
         specifier: ^29.7.0

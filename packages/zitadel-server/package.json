@@ -11,7 +11,7 @@
     "dist/**"
   ],
   "scripts": {
-    "generate": "buf generate https://github.com/zitadel/zitadel.git#tag=v2.43.5 --path ./proto/zitadel",
+    "generate": "buf generate --path ../../proto/zitadel",
     "build": "tsup --dts",
     "test": "pnpm test:unit",
     "test:watch": "pnpm test:unit:watch",
@@ -24,9 +24,9 @@
   "devDependencies": {
     "@bufbuild/buf": "^1.28.1",
     "@types/jest": "^29.5.11",
-    "@zitadel/tsconfig": "workspace:*",
+    "@zitadel/tsconfig": "file: *",
     "eslint": "^8.56.0",
-    "eslint-config-zitadel": "workspace:*",
+    "eslint-config-zitadel": "file: *",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.2",

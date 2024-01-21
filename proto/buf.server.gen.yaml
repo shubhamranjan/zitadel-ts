@@ -1,0 +1,15 @@
+# buf.gen.yaml
+version: v1
+managed:
+  enabled: true
+plugins:
+  - name: ts
+    strategy: all
+    path: ../packages/zitadel-server/node_modules/ts-proto/protoc-gen-ts_proto
+    out: ../packages/zitadel-server/src/proto/server
+    opt:
+    - esModuleInterop=true
+    - env=node
+    - outputServices=nice-grpc
+    - outputServices=generic-definitions
+    - useExactTypes=false

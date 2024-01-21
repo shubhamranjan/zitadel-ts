@@ -9,7 +9,8 @@ plugins:
     out: ../packages/zitadel-server/src/proto/server
     opt:
     - esModuleInterop=true
-    - env=node
+    - env=both
     - outputServices=nice-grpc
     - outputServices=generic-definitions
     - useExactTypes=false
+    - outputJsonMethods=false

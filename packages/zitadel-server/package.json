@@ -11,7 +11,7 @@
     "dist/**"
   ],
   "scripts": {
-    "generate": "buf generate --path ../../proto/zitadel",
+    "generate": "buf generate https://github.com/zitadel/zitadel.git#tag=v2.43.5 --path ./proto/zitadel",
     "build": "tsup --dts",
     "test": "pnpm test:unit",
     "test:watch": "pnpm test:unit:watch",

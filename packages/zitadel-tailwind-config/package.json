@@ -6,5 +6,13 @@
   "devDependencies": {
     "tailwindcss": "^3.4.1",
     "@tailwindcss/forms": "0.5.7"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shubhamranjan/zitadel-ts.git"
   }
 }

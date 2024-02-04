@@ -1,5 +1,5 @@
 {
-  "name": "@zitadel/client",
+  "name": "@shubhamranjan/zitadel-client",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

@@ -1,5 +1,5 @@
 {
-  "name": "@shubhamranjan/zitadel-react",
+  "name": "@zitadel/react",
   "version": "0.0.0",
   "types": "./dist/index.d.ts",
   "sideEffects": [

@@ -1,5 +1,5 @@
 {
-  "name": "@zitadel/client",
+  "name": "@shubhamranjan/zitadel-client",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -23,9 +23,9 @@
   "devDependencies": {
     "@bufbuild/buf": "^1.28.1",
     "@types/jest": "^29.5.11",
-    "@zitadel/tsconfig": "file: *",
+    "@shubhamranjan/zitadel-tsconfig": "file: *",
     "eslint": "^8.56.0",
-    "eslint-config-zitadel": "file: *",
+    "@shubhamranjan/eslint-config-zitadel": "file: *",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.2",
